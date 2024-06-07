@@ -18,10 +18,13 @@ body {
     padding: 0;
 }
 
+<<<<<<< HEAD
 .header h1 {
     color: white;
 }
 
+=======
+>>>>>>> 06be17b (Chamber Site Plan)
 .header {
     background-color: var(--primary-color);
     color: var(--white);
