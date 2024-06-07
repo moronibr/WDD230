@@ -1,0 +1,68 @@
+/* base.css */
+
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --background-color: #ecf0f1; /* Light Grey */
+    --header-color: #047a98; /* BYU Blue */
+    --text-color: #2c3e50; /* Dark Grey */
+    --accent-color: #ecdf1ed0; /* Red */
+    --white: #ffffff;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--header-color);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+
+nav {
+    background-color:black;
+    font-family: 'Arial', sans-serif;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    padding: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-item {
+    color: white; /* Text color for navbar items */
+    text-decoration: none; /* Remove underlines from links */
+    text-align: center; /* Center align text */
+    padding: 5px 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
