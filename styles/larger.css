@@ -1,0 +1,12 @@
+/* larger.css */
+
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --background-color: #ecf0f1; /* Light Grey */
+    --header-color: #047a98; /* BYU Blue */
+    --text-color: #2c3e50; /* Dark Grey */
+    --accent-color: #ecdf1ed0; /* Red */
+    --white: #ffffff;
+}
+

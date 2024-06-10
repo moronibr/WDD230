@@ -18,7 +18,10 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    
 }
+
+
 
 header {
     background-color: var(--header-color);
@@ -28,6 +31,7 @@ header {
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 #profile-picture {
@@ -39,20 +43,28 @@ header {
     margin-right: 20px;
 }
 
+#profile-name{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 
 nav {
-    background-color:black;
+    background-color: black;
     font-family: 'Arial', sans-serif;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    padding: 1px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the nav takes up the full width */
+    box-sizing: border-box; 
+    border-radius: 5px;
+    margin-right: 0;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    border-radius: 5px;
+    margin-right: 0;
 }
 
 .nav-item {
@@ -64,5 +76,143 @@ nav ul {
     display: flex; /* Use flexbox */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
+    margin-right: 0;
 }
 
+nav ul li {
+    width: 100%; /* Make the list items take up the full width */
+    border-radius: 5px;
+}
+
+#home {
+    background-color: rgb(102, 41, 41);
+    margin-right: 0;
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 0;
+}
+
+.card {
+    background-color: var(--background-color);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: var(--text-color);
+    list-style-type: none;
+    margin-right: 0;
+    
+}
+
+#navigation {
+    list-style-type: none;
+    
+    
+}
+
+#card-title {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: var(--header-color);
+    display: grid;
+    margin: 0;
+    padding: 0;
+	align-items: center;
+	justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+
+
+.learning-activities {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    display: flex-inline;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+#card-info{
+    background-color: var(--header-color);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+	align-items: center;
+	justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#card-weather {
+    background-color: var(--background-color);
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    letter-spacing: 1px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.local {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--header-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
