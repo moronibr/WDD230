@@ -10,3 +10,54 @@
     --white: #ffffff;
 }
 
+#nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: black;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: space-between; /* Distributes space evenly between the items */
+}
+
+
+.card-title {
+    flex: 1; /* Ensures each .card-title takes up equal space */
+    text-align: center; 
+    background-color: #047a98;
+    color: white;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 10px;
+    margin-right: 20%;
+    margin-left: 30%;
+}
+
+#learning {
+    display: grid;
+    margin-left: 30%;
+    margin-right: 0%;
+}
+
+#decoration {
+    display: grid;
+    margin-right: %;
+}
+
+#info {
+    display: grid;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+

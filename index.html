@@ -24,7 +24,7 @@
     </header>
 
     <nav>
-        <ul>
+        <ul id="nav-bar">
             <li><a href="#" class="nav-item" id="home">Home</a></li>
             <li><a href="#" class="nav-item">Chamber</a></li>
             <li><a href="#" class="nav-item">Site Plan</a></li>
@@ -34,33 +34,35 @@
     
     <main>
         <h1>WDD 230 - Web Frontend Development</h1>
-        <h2 id="card-title">Learning Activities</h2>
-        <section class="card">  
-            <ul id="navigation">
-                <li><a href="#" class="learning-activities">Week 01:  
-                    <a href="#" class="learning-activities">Layout | </a>
-                    <a href="#" class="learning-activities">Media Query | </a>
-                    <a href="#" class="learning-activities">JS Pen </a>
-                </li>
-                <li><a href="#" class="learning-activities">Week 02:</a></li>
-                <li><a href="#" class="learning-activities">Week 03:</a></li>
-                <li><a href="#" class="learning-activities">Week 04:</a></li>
-                <li><a href="#" class="learning-activities">Week 05:</a></li>
-                <li><a href="#" class="learning-activities">Week 06:</a></li>
-            </ul>
-        </section>
-
-        <section id="card-info">  
-            <h2>Information</h2>
-        </section>
-
-        <section id="card-weather">
-            <ul>
-                <li class="local">Paranaguá, Paraná, Brasil</li>
-                <li class="local">18 °C</li>
-                <li class="local">Page Visits: 15</li>
-            </ul>   
-        </section>
+            <div class="card-container">
+                <h2 class="card-title" id="learning">Learning Activities</h2>
+                <h2 class = "card-title" id = "info">Information</h2>
+            </div>
+            
+            <div class="card-container">
+                <section class="card">  
+                    <ul id="decoration">
+                        <li><a href="#" class="learning-activities">Week 01:  
+                            <a href="#" class="learning-activities">Layout | </a>
+                            <a href="#" class="learning-activities">Media Query | </a>
+                            <a href="#" class="learning-activities">JS Pen </a>
+                        </li>
+                        <li><a href="#" class="learning-activities">Week 02:</a></li>
+                        <li><a href="#" class="learning-activities">Week 03:</a></li>
+                        <li><a href="#" class="learning-activities">Week 04:</a></li>
+                        <li><a href="#" class="learning-activities">Week 05:</a></li>
+                        <li><a href="#" class="learning-activities">Week 06:</a></li>
+                    </ul>
+                </section>
+            
+                <section id="card" class="card">
+                    <ul>
+                        <li class="local">Paranaguá, Paraná, Brasil</li>
+                        <li class="local">18 °C</li>
+                        <li class="local">Page Visits: 15</li>
+                    </ul>   
+                </section>
+            </div>      
     </main>
 
     <footer>
