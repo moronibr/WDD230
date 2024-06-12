@@ -93,49 +93,54 @@ h1 {
     color: var(--text-color);
     font-size: 18px;
     font-family: 'Arial', sans-serif;
-    text-align: center;
     margin: 15;
     padding: 10px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 1.2;
-    
+    text-align: center;
 }
 
-main section h2 {
+h2 {
     background-color: #047a98;
     color: white;
     padding: 5px;
     border-radius: 5px;
-    margin-top: -6%;
-    margin-right: -6%;
-    margin-left: -6%;
-}
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 10px;
+    display: flex-inline;
+    align-items: center;
+    justify-content: center;
 
+}
 .card {
+    position: relative;
+    margin-right: 0;
+    display: inline-flexbox;
+    align-items: center;
     background-color: var(--background-color);
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 1.2;
     color: var(--text-color);
-    list-style-type: none;
-    margin-right: 0;
-  
 }
 
 section ul li {
     list-style: none;
-    padding: 10px;
+    padding: 25px;
     display: flex-inline;
-    margin-top: 10px;
+    position: relative;
+    top: 15px;
+    bottom: 33px;
 }
 
 #card-weather {
