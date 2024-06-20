@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce</title>
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Base CSS for all devices -->
+    <link rel="stylesheet" href="styles/base.css">
+
+
+    <!-- Larger CSS for devices with width 768px and above -->
+    <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 768px)">
+
+    <link rel="icon" href="favicon/bandeira.png">
+
+
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-            <div>
+            <div class="logo">
                 <h1>Paranagua</h1>
                 <p>Chamber of Commerce</p>
             </div>    
@@ -21,7 +34,11 @@
         </nav>
 
         <div class="hero">
-            <h2>Chamber of Commerce</h2>
+            <div class="hero-text">
+                <img class="hero-image" src = "images/Hero.jpg" alt="Hero">
+                <h3 class="hero-title">Paranaguá, The Mom of The State of Paraná</h3>
+                <button>Hire me</button>
+            </div>
         </div>
 
     </header>

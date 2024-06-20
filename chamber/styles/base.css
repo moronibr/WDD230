@@ -1,0 +1,44 @@
+/* base.css */
+
+:root {
+    --primary-color: #0fea0b;  /* Green */
+    --secondary-color: #f7f010d0; /* Yellow */
+    --background-color: #4be75b; /* Light Green */
+    --header-color: #047a98; /* BYU Blue */
+    --text-color: #000000; /* Black */
+    --accent-color: #ee0d0df4; /* Red */
+    --white: #ffffff; 
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: auto;
+    padding: auto;
+    
+}
+
+.logo {
+    text-align: justify;
+    display: block;
+    
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-image .hero-title {
+    position: relative;
+    
+}
+
+

@@ -1,0 +1,20 @@
+/* larger.css */
+
+:root {
+    --primary-color: #0fea0b;  /* Green */
+    --secondary-color: #f7f010d0; /* Yellow */
+    --background-color: #86cc8d; /* Light Green */
+    --header-color: #047a98; /* BYU Blue */
+    --text-color: #000000; /* Black */
+    --accent-color: #ee0d0df4; /* Red */
+    --white: #ffffff; 
+}
+
+.hero-title {
+    color: black;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
